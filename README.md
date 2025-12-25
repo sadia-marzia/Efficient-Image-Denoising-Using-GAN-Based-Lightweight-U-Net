@@ -61,15 +61,4 @@ The composite loss ensures an optimal trade-off between accuracy, structure, and
 - Strong performance with low computational requirements
 - Suitable for **real-time and edge-device deployment**
 
----
-├── data/ # Training and evaluation datasets
-├── models/
-│ ├── generator.py # Lightweight U-Net generator
-│ └── discriminator.py # GAN discriminator
-├── loss/ # Multi-loss function definitions
-├── training/ # Training scripts
-├── evaluation/ # PSNR, SSIM evaluation scripts
-
-└── README.md # Documentation
-
 ## 🗂️ Repository Structure
